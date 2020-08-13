@@ -18,7 +18,24 @@ npm i
 
 npm install express pg pg-hstore sequelize sequelize-cli nodemon
 
+# config database:
+
 ## With PgAdmin4 open and connected
+
+### open the file src/config/database
+
+### edit de values of username and password with the credencials you created on the installation of postegres
+
+#### if you dont know your username, the defaut key value is "postgres"
+
+#### the password is defined on the instalation process.
+
+#### for example :
+
+username: "postgres",
+password: "admin",
+
+## now, we can create the database ( the database name can also be changed in the file above)
 
 ## run
 
