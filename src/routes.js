@@ -10,7 +10,7 @@ routes.post("/users", UserController.store);
 routes.post("/products", ProdutoController.store);
 routes.get("/products", ProdutoController.index);
 
-routes.post("/users/:user_id/pedidos", PedidoController.store);
-routes.get("/users/pedidos", PedidoController.index);
+routes.post("/users/:user_id/orders", PedidoController.store);
+routes.get("/users/orders", PedidoController.index);
 
 module.exports = routes;
