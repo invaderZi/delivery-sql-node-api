@@ -1,0 +1,15 @@
+npm init -y
+
+npm install express pg pg-hstore sequelize sequelize-cli nodemon
+
+
+npm start // start servidor
+
+
+npx sequelize db:create   // cria database
+
+npx sequelize migration:create --name=nome-da-migracao
+
+npx sequelize db:migrate // realiza migração
+
+
