@@ -39,11 +39,11 @@ password: "admin",
 
 ## run
 
-npx sequelize db: create
+npx sequelize db:create
 
 ## then
 
-npx sequelize db: migrate
+npx sequelize db:migrate
 
 ## and finaly
 
